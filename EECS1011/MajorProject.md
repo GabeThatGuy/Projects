@@ -1,4 +1,5 @@
-### Code for this project can be viewed [here.](/Projects/EECS1011/MajorProject/code)
+## The EECS 1011 Major Project
+#### Code for this project can be viewed [here.](/Projects/EECS1011/MajorProject/code)
 
 ### Introduction
 This device is indented to replace conventional faucets by allowing the faucet to detect when it is needed and when it is not.  
