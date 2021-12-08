@@ -1,3 +1,5 @@
+### Gabe's Code for the EECS 1011 Major Project  
+
 ```matlab
 if exist('a','var') == 1
 %If arduino has been defined, do not define again, continue program as normal.
