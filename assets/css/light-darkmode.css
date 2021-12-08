@@ -1,0 +1,23 @@
+
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+        padding: env(safe-area-inset-top) env(safe-area-inset-bottom) env(safe-area-inset-right) env(safe-area-inset-left);
+        cursor:url(/MinecraftServer/assets/css/cursor/cursor.png), auto;
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+        padding: env(safe-area-inset-top) env(safe-area-inset-bottom) env(safe-area-inset-right) env(safe-area-inset-left);
+        cursor:url(/MinecraftServer/assets/css/cursor/cursor.png), auto;
+    }
+}
+
+
