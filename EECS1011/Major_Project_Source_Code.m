@@ -1,6 +1,6 @@
 
 if exist('a','var') == 1
-  %If arduino has been defined, do not define again, continue program as normal.
+%If arduino has been defined, do not define again, continue program as normal.
   a = a
 else
 %This will only run if the program is being run for the first time
@@ -8,8 +8,7 @@ else
 %Notify the operator that MATLAB is programming the arduino for use.
     disp("Programming Arduino Board for Operation with MATLAB");
 
-%Execute the c
-ommand to program the arduino.
+%Execute the command to program the arduino.
     a = arduino('/dev/cu.usbserial-0001','uno');
 end
 
