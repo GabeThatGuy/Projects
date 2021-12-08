@@ -1,3 +1,8 @@
+---
+layout: default
+title: Major Project Code
+---
+
 ### Gabe's Code for the EECS 1011 Major Project  
 
 ```matlab
