@@ -1,13 +1,7 @@
 title: Gabe's Projects
 description:
 
-markdown: kramdown
-highlighter: rouge
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
-    syntax_highlighter_opts:
-        css_class: 'highlight'
+
         
         
         
