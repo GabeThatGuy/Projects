@@ -7,7 +7,7 @@ title: Major Project Code
 Please ensure your system is set to Light Mode so that this page displays correctly.
 
 
-{% highlight matlab %}
+```matlab
 if exist('a','var') == 1
 %If arduino has been defined, do not define again, continue program as normal.
   a = a
@@ -50,4 +50,4 @@ end
 
 
 end
-{% endhighlight %}
+```
