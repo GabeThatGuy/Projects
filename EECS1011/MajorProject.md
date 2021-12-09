@@ -1,5 +1,5 @@
 ## The EECS 1011 Major Project
-#### Code for this project can be viewed [here.](http://github.com/GabeThatGuy/Projects/blob/main/EECS1011/MajorProject/Major_Project_Source_Code.m)
+#### Code for this project can be viewed on GitHub, [here.](http://github.com/GabeThatGuy/Projects/blob/main/EECS1011/MajorProject/Major_Project_Source_Code.m)
 
 ### Introduction
 This device is indented to replace conventional faucets by allowing the faucet to detect when it is needed and when it is not.  
