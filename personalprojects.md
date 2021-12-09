@@ -2,9 +2,9 @@
 The projects here will be organized (mostly) by date.
 
 ### The Hackintoshing of the XPS 15
-On October 6, 2020, Gabe purchased a Dell XPS 15 9500 for school and gaming purposes.
-It originally came with Windows 10, but I wanted to install macOS on it so that I could use macOS for work and Windows for Games.
-I started the hackintosh project in early June 2021. I used my Grade 12 computer engineering course as a test subject for running apps and taking notes in macOS.
+On October 6, 2020, Gabe purchased a Dell XPS 15 9500 for school and gaming purposes.  
+It originally came with Windows 10, but I wanted to install macOS on it so that I could use macOS for work and Windows for Games.  
+I started the hackintosh project in early June 2021. I used my Grade 12 computer engineering course as a test subject for running apps and taking notes in macOS.  
 As it stands right now, the XPS runs macOS 95% of the time, and works without any flaws (barring the fact that sleep mode doesn't work).  
 
 ### Gabe's Personal PC
