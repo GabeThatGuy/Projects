@@ -4,6 +4,8 @@ title: Major Project Code
 ---
 
 ### Gabe's Code for the EECS 1011 Major Project  
+Please ensure your system is set to Light Mode so that this page displays correctly.
+
 
 ```matlab
 if exist('a','var') == 1
