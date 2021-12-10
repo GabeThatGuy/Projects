@@ -1,5 +1,4 @@
 ## The EECS 1011 Major Project
-#### Code for this project can be viewed on GitHub, [<span style="color:red">here.</span>](http://github.com/GabeThatGuy/Projects/blob/main/EECS1011/MajorProject/Major_Project_Source_Code.m)
 
 ### Introduction
 This device is indented to replace conventional faucets by allowing the faucet to detect when it is needed and when it is not.  
@@ -21,6 +20,9 @@ Initially, I wanted to create a synthesizer, which would accept a MIDI input via
 As I mentioned in the introduction, thousands of liters of water are wasted each year and running sinks contribute extensively to this problem. If such a product as mine were to be industrialized and mass produced, and installed in peoples homes, it would significantly reduce water waste.  
 ### Conclusion  
 With all of the aspects considered, such as environmental factors and feasibility of the project, I was content with my result and how it functions.  
+
+### <span style="color:lime">The Code</span>
+![eecsmajorcode](/Projects/EECS1011/MajorProject/code.png)
 
 
 [Back to Top](/Projects/EECS1011/MajorProject#Introduction)  
