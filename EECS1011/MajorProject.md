@@ -1,5 +1,6 @@
 ## The EECS 1011 Major Project
-
+By Gabriel Gonsalves --- 219 006 014
+Written in Markdown
 ### Introduction
 This device is indented to replace conventional faucets by allowing the faucet to detect when it is needed and when it is not.  
 
@@ -22,7 +23,54 @@ As I mentioned in the introduction, thousands of liters of water are wasted each
 With all of the aspects considered, such as environmental factors and feasibility of the project, I was content with my result and how it functions.  
 
 ### <span style="color:lime">The Code</span>
-![eecsmajorcode](/Projects/EECS1011/MajorProject/code.png)
+```matlab
+
+if exist('a','var') == 1
+%If arduino has been defined, do not define again, continue program as normal.
+     a = a
+else
+%This will only run if the program is being run for the first time
+
+%Notify the operator that MATLAB is programming the arduino for use.
+    disp("Programming Arduino Board for Operation with MATLAB");
+
+%Execute the command to program the arduino.
+    a = arduino('/dev/cu.usbserial-0001','uno');
+end
+
+%This code contains two functions: readSensorVoltage and thresholdVoltage.
+%They are contained in .m files. Note: readSensorVoltage is the function
+%and readVoltage is the command included in MATLAB.
+
+%Create an infinite loop.
+while 1 > 0
+
+    %Display the sensor voltage to the console
+
+    toprint = strcat("Threshold Voltage: " + thresholdVoltage(a,'A0')+", Sensor Voltage: " + readSensorVoltage(a,'A2'));
+    disp(toprint);
+%Wait for 100ms before continuing.
+    pause(0.1);
+
+%Measure the threshold value from the potentiometer.
+    thres = readSensorVoltage(a,'A0');
+    
+%Measure the light level from the sensor.     
+    sig = readSensorVoltage(a,'A2');
+    
+%Compare the signal to the threshold. If the signal is lower, then turn the pump on. Otherwise, pump must be off. 
+    if sig < thres
+        writeDigitalPin(a,'D3',1);
+
+    else
+        writeDigitalPin(a,'D3',0);
+
+    end
+
+
+end
+```
+
 
 
 [Back to Top](/Projects/EECS1011/MajorProject#Introduction)  
