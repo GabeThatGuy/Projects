@@ -1,6 +1,6 @@
 ## The EECS 1011 Major Project
-By Gabriel Gonsalves --- 219 006 014
-Written in Markdown
+By Gabriel Gonsalves --- 219 006 014  
+Written in Markdown  
 ### Introduction
 This device is indented to replace conventional faucets by allowing the faucet to detect when it is needed and when it is not.  
 
