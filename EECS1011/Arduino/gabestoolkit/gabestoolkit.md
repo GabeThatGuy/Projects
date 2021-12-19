@@ -7,7 +7,7 @@ Gabe's toolkit is a toolkit that allows the grove arduino board to measure the v
 ### The Code
 Grab the code [here](/Projects/EECS1011/Arduino/gabestoolkit/Gabes_Toolkit_v1.1.ino), or find the inline version below.
 
-```arduino
+```c++
 
 #include <Arduino.h>
 #include <U8x8lib.h>
